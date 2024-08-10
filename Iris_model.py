@@ -6,7 +6,7 @@ from sklearn.pipeline import make_pipeline
 import joblib
 
 # Load dataset
-df = pd.read_csv("F:/Machine Learning/Iris_Classification/IRIS.csv")
+df = pd.read_csv("IRIS.csv")
 
 # Features and target
 X = df.drop('species', axis=1)
